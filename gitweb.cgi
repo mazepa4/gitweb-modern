@@ -122,7 +122,7 @@ our $javascript = "static/gitweb.js";
 # URI and label (title) of GIT logo link
 #our $logo_url = "http://www.kernel.org/pub/software/scm/git/docs/";
 #our $logo_label = "git documentation";
-our $logo_url = "http://your.addres.to.repository";
+our $logo_url = "http://address.to.your.repository";
 our $logo_label = "Homepage";
 
 # source of projects list
@@ -6568,7 +6568,7 @@ sub git_summary {
 	}
 	
 	print "<tr id=\"metadata_url\"><td>Repository url</td>" .
-		      "<td class=\"project_info_detail\">https://you.addres.to.repository/".$current_project."</td></tr>\n";
+		      "<td class=\"project_info_detail\">https://address.to.your.repository/".$current_project."</td></tr>\n";
 	
 
 	# use per project git URL list in $projectroot/$project/cloneurl
